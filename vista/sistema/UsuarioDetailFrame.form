@@ -1,0 +1,325 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.2" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JInternalFrameFormInfo">
+  <Properties>
+    <Property name="title" type="java.lang.String" value="Usuario"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="2"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="form1" alignment="0" max="32767" attributes="0"/>
+                  <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="form1" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Component id="editButton1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="saveButton1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="220" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="editButton1" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <Component id="saveButton1" alignment="1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="org.openswing.swing.client.EditButton" name="editButton1">
+        </Component>
+        <Component class="org.openswing.swing.client.SaveButton" name="saveButton1">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="org.openswing.swing.form.client.Form" name="form1">
+      <Properties>
+        <Property name="VOClassName" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="modelo.entidades.Usuario.class.getName()" type="code"/>
+        </Property>
+        <Property name="editButton" type="org.openswing.swing.client.EditButton" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="editButton1"/>
+        </Property>
+        <Property name="saveButton" type="org.openswing.swing.client.SaveButton" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="saveButton1"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="labelControl1" linkSize="1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="labelControl2" linkSize="1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="labelControl3" linkSize="1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="labelControl6" linkSize="1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="textControl2" pref="176" max="32767" attributes="0"/>
+                              <Component id="textControl1" alignment="0" pref="176" max="32767" attributes="0"/>
+                              <Component id="passwordControl1" alignment="0" pref="176" max="32767" attributes="0"/>
+                              <Component id="codLookupControl1" alignment="0" pref="176" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="labelControl4" linkSize="1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="labelControl5" linkSize="1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="checkBoxControl2" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="labelControl8" pref="140" max="32767" attributes="0"/>
+                                      <Component id="labelControl7" alignment="0" pref="140" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Component id="checkBoxControl1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="checkBoxControl3" min="-2" max="-2" attributes="0"/>
+                              <Component id="checkBoxControl4" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="textControl1" linkSize="2" alignment="1" min="-2" pref="20" max="-2" attributes="0"/>
+                      <Component id="labelControl1" linkSize="2" alignment="1" min="-2" pref="20" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="labelControl2" linkSize="2" min="-2" pref="20" max="-2" attributes="0"/>
+                      <Component id="textControl2" linkSize="2" min="-2" pref="20" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="labelControl3" linkSize="2" min="-2" pref="20" max="-2" attributes="0"/>
+                      <Component id="passwordControl1" linkSize="2" min="-2" pref="20" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="labelControl6" linkSize="2" min="-2" max="-2" attributes="0"/>
+                      <Component id="codLookupControl1" linkSize="2" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="labelControl4" linkSize="2" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                              <Component id="checkBoxControl1" linkSize="2" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="labelControl5" linkSize="2" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                              <Component id="checkBoxControl2" linkSize="2" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                          <Group type="102" alignment="0" attributes="1">
+                              <Component id="checkBoxControl3" min="-2" pref="20" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="checkBoxControl4" min="-2" pref="20" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="labelControl7" min="-2" pref="20" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="labelControl8" min="-2" pref="20" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="59" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="org.openswing.swing.client.LabelControl" name="labelControl1">
+          <Properties>
+            <Property name="label" type="java.lang.String" value="nombreCompleto"/>
+          </Properties>
+        </Component>
+        <Component class="org.openswing.swing.client.LabelControl" name="labelControl2">
+          <Properties>
+            <Property name="label" type="java.lang.String" value="user"/>
+          </Properties>
+        </Component>
+        <Component class="org.openswing.swing.client.LabelControl" name="labelControl3">
+          <Properties>
+            <Property name="label" type="java.lang.String" value="password"/>
+          </Properties>
+        </Component>
+        <Component class="org.openswing.swing.client.TextControl" name="textControl1">
+          <Properties>
+            <Property name="attributeName" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="&quot;nombreCompleto&quot;" type="code"/>
+            </Property>
+            <Property name="linkLabel" type="org.openswing.swing.client.LabelControl" editor="org.netbeans.modules.form.ComponentChooserEditor">
+              <ComponentRef name="labelControl1"/>
+            </Property>
+            <Property name="maxCharacters" type="int" value="100"/>
+            <Property name="required" type="boolean" value="true"/>
+          </Properties>
+        </Component>
+        <Component class="org.openswing.swing.client.TextControl" name="textControl2">
+          <Properties>
+            <Property name="attributeName" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="&quot;userName&quot;" type="code"/>
+            </Property>
+            <Property name="linkLabel" type="org.openswing.swing.client.LabelControl" editor="org.netbeans.modules.form.ComponentChooserEditor">
+              <ComponentRef name="labelControl2"/>
+            </Property>
+            <Property name="maxCharacters" type="int" value="20"/>
+            <Property name="required" type="boolean" value="true"/>
+          </Properties>
+        </Component>
+        <Component class="org.openswing.swing.client.PasswordControl" name="passwordControl1">
+          <Properties>
+            <Property name="attributeName" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="&quot;password&quot;" type="code"/>
+            </Property>
+            <Property name="linkLabel" type="org.openswing.swing.client.LabelControl" editor="org.netbeans.modules.form.ComponentChooserEditor">
+              <ComponentRef name="labelControl3"/>
+            </Property>
+            <Property name="maxCharacters" type="int" value="20"/>
+            <Property name="required" type="boolean" value="true"/>
+          </Properties>
+        </Component>
+        <Component class="org.openswing.swing.client.LabelControl" name="labelControl4">
+          <Properties>
+            <Property name="label" type="java.lang.String" value="administraUsuarios"/>
+          </Properties>
+        </Component>
+        <Component class="org.openswing.swing.client.CheckBoxControl" name="checkBoxControl1">
+          <Properties>
+            <Property name="attributeName" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="&quot;administraUsuarios&quot;" type="code"/>
+            </Property>
+            <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+              <Insets value="[0, 0, 0, 0]"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="org.openswing.swing.client.LabelControl" name="labelControl5">
+          <Properties>
+            <Property name="label" type="java.lang.String" value="auditoria.activo"/>
+          </Properties>
+        </Component>
+        <Component class="org.openswing.swing.client.CheckBoxControl" name="checkBoxControl2">
+          <Properties>
+            <Property name="attributeName" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="&quot;auditoria.activo&quot;" type="code"/>
+            </Property>
+            <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+              <Insets value="[0, 0, 0, 0]"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="org.openswing.swing.client.LabelControl" name="labelControl6">
+          <Properties>
+            <Property name="label" type="java.lang.String" value="rol"/>
+          </Properties>
+        </Component>
+        <Component class="org.openswing.swing.client.CodLookupControl" name="codLookupControl1">
+          <Properties>
+            <Property name="attributeName" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="&quot;rol.nombre&quot;" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="org.openswing.swing.client.LabelControl" name="labelControl7">
+          <Properties>
+            <Property name="label" type="java.lang.String" value="usuario.superusuario"/>
+          </Properties>
+        </Component>
+        <Component class="org.openswing.swing.client.CheckBoxControl" name="checkBoxControl3">
+          <Properties>
+            <Property name="attributeName" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="&quot;superusuario&quot;" type="code"/>
+            </Property>
+            <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+              <Insets value="[0, 0, 0, 0]"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="org.openswing.swing.client.LabelControl" name="labelControl8">
+          <Properties>
+            <Property name="label" type="java.lang.String" value="usuario.modificarPermisos"/>
+          </Properties>
+          <AccessibilityProperties>
+            <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="usuario.modificarPermisos"/>
+          </AccessibilityProperties>
+        </Component>
+        <Component class="org.openswing.swing.client.CheckBoxControl" name="checkBoxControl4">
+          <Properties>
+            <Property name="attributeName" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="&quot;modificarPermisos&quot;" type="code"/>
+            </Property>
+            <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+              <Insets value="[0, 0, 0, 0]"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

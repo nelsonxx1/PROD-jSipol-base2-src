@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+    <!--
+        <property name="hibernate.dialect">org.hibernate.dialect.HSQLDialect</property>
+        <property name="hibernate.connection.driver_class">org.hsqldb.jdbcDriver</property>
+        <property name="hibernate.connection.url">jdbc:hsqldb:hsql://127.0.0.1</property>
+        <property name="hibernate.connection.username">sa</property>
+        <property name="hibernate.connection.password"/>
+
+    -->
+        <property name="hibernate.dialect">org.hibernate.dialect.HSQLDialect</property>
+        <property name="hibernate.connection.driver_class">org.hsqldb.jdbcDriver</property>
+
+        <property name="hibernate.connection.pool_size">1</property>
+        <property name="hibernate.id.new_generator_mappings">true</property>
+        
+        <mapping class="modelo.entidades.administracion.Movimiento"/>
+        <mapping class="modelo.entidades.administracion.Factura2"/>
+
+        <mapping class="modelo.entidades.sms.SMSMasa"/>
+        <mapping class="modelo.entidades.sms.SMS"/>
+        <mapping class="modelo.entidades.sms.SMSAutomatico"/>
+        <mapping class="modelo.entidades.sms.SMSPreEscrito"/>
+        <mapping class="modelo.entidades.sms.SMSEntrada"/>
+
+        <mapping class="modelo.entidades.Observacion"/>
+        <mapping class="modelo.entidades.TipoDocumento"/>
+        <mapping class="modelo.entidades.Documento"/>
+        <mapping class="modelo.entidades.ValoresEstandares"/>
+        <mapping class="modelo.entidades.Licencia"/>
+        <mapping class="modelo.entidades.Empresa"/>
+        <mapping class="modelo.entidades.Usuario"/>
+        <mapping class="modelo.entidades.Reporte"/>
+        <mapping class="modelo.entidades.Estado"/>
+        <mapping class="modelo.entidades.Encabezado"/>
+        <mapping class="modelo.entidades.ParametroReporte"/>
+        <mapping class="modelo.entidades.CalendarioBancario"/>
+        <mapping class="modelo.entidades.auditoria.AuditLogRecord"/>
+        <mapping class="modelo.entidades.helpcenter.maestra.Mensaje"/>
+        <mapping class="modelo.entidades.defaultData.DefaultPersona"/>
+        <mapping class="modelo.entidades.defaultData.DefaultPoliza"/>
+        <mapping class="modelo.entidades.defaultData.DefaultRecibo"/>
+        <mapping class="modelo.entidades.defaultData.DefaultSiniestro"/>
+        <mapping class="modelo.entidades.defaultData.DefaultVehiculo"/>
+        <mapping class="modelo.entidades.personas.dominio.TipoActividadEconomica"/>
+        <mapping class="modelo.entidades.personas.dominio.TipoCapacidadEconomica"/>
+        <mapping class="modelo.entidades.personas.dominio.TipoCuentaBancaria"/>
+        <mapping class="modelo.entidades.personas.dominio.TipoDireccion"/>
+        <mapping class="modelo.entidades.personas.dominio.TipoTelefono2"/>
+        <mapping class="modelo.entidades.personas.dominio.TipoCodigoArea"/>
+        <mapping class="modelo.entidades.personas.dominio.TipoPersona"/>
+        <mapping class="modelo.entidades.personas.maestra.PersonaJuridica"/>
+        <mapping class="modelo.entidades.personas.maestra.PersonaNatural"/>
+        <mapping class="modelo.entidades.personas.maestra.Persona"/>
+        <mapping class="modelo.entidades.personas.maestra.Sucursal"/>
+        <mapping class="modelo.entidades.personas.maestra.Rif"/>
+        <mapping class="modelo.entidades.personas.transac.CuentaBancariaPersona"/>
+        <mapping class="modelo.entidades.personas.transac.DireccionPersona"/>
+        <mapping class="modelo.entidades.personas.transac.TelefonoPersona"/>
+        <mapping class="modelo.entidades.vehiculos.maestra.Vehiculo"/>
+        <mapping class="modelo.entidades.vehiculos.maestra.Vehiculo"/>
+        <mapping class="modelo.entidades.vehiculos.dominio.TipoColor"/>
+        <mapping class="modelo.entidades.vehiculos.dominio.MarcaVehiculo"/>
+        <mapping class="modelo.entidades.vehiculos.dominio.ModeloVehiculo"/>
+        <mapping class="modelo.entidades.vehiculos.dominio.ClasificacionVehiculo"/>
+        <mapping class="modelo.entidades.polizas.dominio.GrupoPoliza"/>
+        <mapping class="modelo.entidades.polizas.dominio.RamoPoliza"/>
+        <mapping class="modelo.entidades.polizas.maestra.Poliza"/>
+        <mapping class="modelo.entidades.polizas.financiamiento.Financiamiento"/>
+        <mapping class="modelo.entidades.polizas.financiamiento.Giro"/>
+        <mapping class="modelo.entidades.polizas.recibos.dominio.TipoZona"/>
+        <mapping class="modelo.entidades.polizas.recibos.dominio.TipoDistribucion"/>
+        <mapping class="modelo.entidades.polizas.recibos.dominio.DistribucionModelo"/>
+        <mapping class="modelo.entidades.polizas.recibos.maestra.Recibo"/>
+        <mapping class="modelo.entidades.polizas.recibos.maestra.Beneficiario"/>
+        <mapping class="modelo.entidades.polizas.recibos.maestra.Distribucion"/>
+        <mapping class="modelo.entidades.polizas.recibos.devolucion.maestra.Devolucion"/>
+        <mapping class="modelo.entidades.siniestros.maestra.Siniestro"/>
+        <mapping class="modelo.entidades.siniestros.dominio.CausaSiniestro"/>
+        <mapping class="modelo.entidades.siniestros.dominio.DetalleCausaSiniestro"/>
+        <mapping class="modelo.entidades.comunicados.Comunicado"/>
+        <mapping class="modelo.entidades.caja.dominio.TipoDocumentoPago"/>
+
+        <mapping class="modelo.entidades.polizas.recibos.cobertura.Cobertura"/>
+        <mapping class="modelo.entidades.polizas.recibos.cobertura.CoberturasRecibo"/>
+
+    <!-- facturacion -->
+        <mapping class="modelo.entidades.caja.dominio.TipoMovimiento"/>
+        <mapping class="modelo.entidades.facturacion.LiquidacionCompania"/>
+        <mapping class="modelo.entidades.facturacion.DetalleLiquidacion"/>
+        <mapping class="modelo.entidades.facturacion.Movimiento"/>
+
+     <!-- Roles -->
+        <mapping class="modelo.entidades.menu.Item"/>
+        <mapping class="modelo.entidades.menu.MenuByRol"/>
+        <mapping class="modelo.entidades.menu.Rol"/>
+
+    <!--
+
+
+
+        <mapping class="modelo.entidades.caja.dominio.TipoIngresoCaja"/>
+
+        <mapping class="modelo.entidades.caja.dominio.TipoTarjetaCredito"/>
+        <mapping class="modelo.entidades.caja.maestra.Caja"/>
+        <mapping class="modelo.entidades.caja.transac.CajaDetalle"/>
+
+        <mapping class="modelo.entidades.facturas.maestra.Factura"/>
+        <mapping class="modelo.entidades.facturas.maestra.PagoComisionCompania"/>
+
+        <mapping class="modelo.entidades.cuentasPorPagar.dominio.TipoEnriquecimiento"/>
+        <mapping class="modelo.entidades.cuentasPorPagar.dominio.TipoEnriquecimientoDetalle"/>
+        <mapping class="modelo.entidades.cuentasPorPagar.maestra.CuentaPorPagar"/>
+
+        <mapping class="modelo.entidades.ordenes.dominio.TipoOrden"/>
+        <mapping class="modelo.entidades.ordenes.maestra.OrdenDePago"/>
+        <mapping class="modelo.entidades.ordenes.transac.OrdenDePagoDetDePaalle"/-->
+    <!--mapping class=""/-->
+    </session-factory>
+</hibernate-configuration>

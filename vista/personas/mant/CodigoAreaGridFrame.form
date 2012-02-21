@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.2" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JInternalFrameFormInfo">
+  <Properties>
+    <Property name="title" type="java.lang.String" value="Codigos de Area"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="2"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+              <Component id="gridData" pref="370" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="gridData" pref="300" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="insertButton1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="editButton1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="deleteButton1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="reloadButton1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="saveButton1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="exportButton1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="158" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="exportButton1" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="saveButton1" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="reloadButton1" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="deleteButton1" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="editButton1" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="insertButton1" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="org.openswing.swing.client.InsertButton" name="insertButton1">
+        </Component>
+        <Component class="org.openswing.swing.client.EditButton" name="editButton1">
+        </Component>
+        <Component class="org.openswing.swing.client.DeleteButton" name="deleteButton1">
+        </Component>
+        <Component class="org.openswing.swing.client.ReloadButton" name="reloadButton1">
+        </Component>
+        <Component class="org.openswing.swing.client.SaveButton" name="saveButton1">
+        </Component>
+        <Component class="org.openswing.swing.client.ExportButton" name="exportButton1">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="org.openswing.swing.client.GridControl" name="gridData">
+      <Properties>
+        <Property name="deleteButton" type="org.openswing.swing.client.DeleteButton" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="deleteButton1"/>
+        </Property>
+        <Property name="editButton" type="org.openswing.swing.client.EditButton" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="editButton1"/>
+        </Property>
+        <Property name="exportButton" type="org.openswing.swing.client.ExportButton" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="exportButton1"/>
+        </Property>
+        <Property name="insertButton" type="org.openswing.swing.client.InsertButton" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="insertButton1"/>
+        </Property>
+        <Property name="reloadButton" type="org.openswing.swing.client.ReloadButton" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="reloadButton1"/>
+        </Property>
+        <Property name="saveButton" type="org.openswing.swing.client.SaveButton" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="saveButton1"/>
+        </Property>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignFlowLayout"/>
+      <SubComponents>
+        <Component class="org.openswing.swing.table.columns.client.IntegerColumn" name="integerColumn1">
+          <Properties>
+            <Property name="columnName" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="&quot;id&quot;" type="code"/>
+            </Property>
+            <Property name="columnRequired" type="boolean" value="false"/>
+            <Property name="preferredWidth" type="int" value="50"/>
+          </Properties>
+        </Component>
+        <Component class="org.openswing.swing.table.columns.client.TextColumn" name="textColumn1">
+          <Properties>
+            <Property name="columnFilterable" type="boolean" value="true"/>
+            <Property name="columnName" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="&quot;nombre&quot;" type="code"/>
+            </Property>
+            <Property name="columnSortable" type="boolean" value="true"/>
+            <Property name="editableOnEdit" type="boolean" value="true"/>
+            <Property name="editableOnInsert" type="boolean" value="true"/>
+            <Property name="maxCharacters" type="int" value="100"/>
+            <Property name="preferredWidth" type="int" value="170"/>
+          </Properties>
+        </Component>
+        <Component class="org.openswing.swing.table.columns.client.IntegerColumn" name="integerColumn2">
+          <Properties>
+            <Property name="columnName" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="&quot;numero&quot;" type="code"/>
+            </Property>
+            <Property name="editableOnEdit" type="boolean" value="true"/>
+            <Property name="editableOnInsert" type="boolean" value="true"/>
+            <Property name="maxValue" type="int" value="999"/>
+            <Property name="minValue" type="int" value="99"/>
+            <Property name="preferredWidth" type="int" value="60"/>
+          </Properties>
+        </Component>
+        <Component class="org.openswing.swing.table.columns.client.CheckBoxColumn" name="checkBoxColumn1">
+          <Properties>
+            <Property name="columnName" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="&quot;auditoria.activo&quot;" type="code"/>
+            </Property>
+            <Property name="editableOnEdit" type="boolean" value="true"/>
+            <Property name="editableOnInsert" type="boolean" value="true"/>
+          </Properties>
+        </Component>
+        <Component class="org.openswing.swing.table.columns.client.DateTimeColumn" name="dateTimeColumn1">
+          <Properties>
+            <Property name="columnName" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="&quot;auditoria.fechaInsert&quot;" type="code"/>
+            </Property>
+            <Property name="columnRequired" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="org.openswing.swing.table.columns.client.TextColumn" name="textColumn2">
+          <Properties>
+            <Property name="columnName" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="&quot;auditoria.usuarioInsert&quot;" type="code"/>
+            </Property>
+            <Property name="columnRequired" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="org.openswing.swing.table.columns.client.DateTimeColumn" name="dateTimeColumn2">
+          <Properties>
+            <Property name="columnName" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="&quot;auditoria.fechaUpdate&quot;" type="code"/>
+            </Property>
+            <Property name="columnRequired" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="org.openswing.swing.table.columns.client.TextColumn" name="textColumn3">
+          <Properties>
+            <Property name="columnName" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="&quot;auditoria.usuarioUpdate&quot;" type="code"/>
+            </Property>
+            <Property name="columnRequired" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
